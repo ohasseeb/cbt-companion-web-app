@@ -1,0 +1,17 @@
+.daily-checkin {
+  border: dashed;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.inline-daily-checkin {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  height: 7em;
+  margin-left: 1.5em;
+}
+
+.start-button {
+  width: 10%;
+}

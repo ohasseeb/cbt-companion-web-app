@@ -1,25 +1,16 @@
 import React from "react";
 import "./App.css";
 import logo from "./logo512.png";
+import DepressionTest from "./components/depression-test/depression-test.component.jsx";
+import DailyCheckin from "./components/daily-checkin/daily-checkin.component";
 
 const App = () => (
   <div>
-    <div className="depression-test">
-      <div>Depression Test(PHQ-9)</div>
-      <div className="buttons">
-        <button className="info-button"> i </button>
-        <button> Start Now</button>
-      </div>
-    </div>{" "}
-    {/* ^ end depression Test div*/}
+    <DepressionTest />
+    <DailyCheckin />
+
     {/* starting _|_ Daiuly checkin Div div*/}
-    <div className="daily-checkin">
-      <div className="inline-daily-checkin">
-        <div> Daily Checkin</div>
-        <div> Record Mood, Emotions and journal</div>
-        <button className="start-button"> Start</button>
-      </div>
-    </div>
+
     {/* Ending ^ Daily Checkin Div  Div div*/}
     {/* starting _|_ Thoughttools Div div*/}
     {/*  */}

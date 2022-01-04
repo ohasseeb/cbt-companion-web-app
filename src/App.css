@@ -2,16 +2,6 @@ html {
   margin-left: 3em;
 }
 
-.depression-test {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 30%;
-  height: 2em;
-  border-radius: 10px;
-  border: dashed;
-}
-
 .daily-checkin {
   border: dashed;
   border-radius: 10px;
@@ -24,10 +14,6 @@ html {
   justify-content: space-around;
   height: 7em;
   margin-left: 1.5em;
-}
-
-.info-button {
-  margin-right: 1em;
 }
 
 .start-button {
@@ -46,6 +32,7 @@ html {
   display: flex;
   flex-direction: column-reverse;
   width: 15em;
+  align-items: center;
 }
 
 #thought-tool-exercise-button {
