@@ -1,12 +1,11 @@
 .CBT-exercise-topic {
-  border: dashed;
-  border-radius: 10px;
   margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .thought-tool-exercise {
-  border: dashed blue;
-  border-radius: 10px;
+  //   border: dashed blue;
+  //   border-radius: 10px;
   display: flex;
   flex-direction: column-reverse;
   width: 15em;
@@ -16,8 +15,15 @@
 #thought-tool-exercise-button {
   width: 70%;
   height: 50%;
+  margin-bottom: 0.5em;
 }
 
 .thought-tool-group {
   display: flex;
 }
+
+/* // Background - #2E3255
+Box Color - #3B4C78 
+Text - #F7FDFE
+help@resiliens.com
+Woops Wrong chat */
