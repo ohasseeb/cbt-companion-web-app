@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+html {
+  margin-left: 3em;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.depression-test {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 30%;
+  height: 2em;
+  border-radius: 10px;
+  border: dashed;
 }
 
-.App-link {
-  color: #61dafb;
+.daily-checkin {
+  border: dashed;
+  border-radius: 10px;
+  width: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inline-daily-checkin {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  height: 7em;
+  margin-left: 1.5em;
+}
+
+.info-button {
+  margin-right: 1em;
+}
+
+.start-button {
+  width: 10%;
+}
+
+.CBT-exercise-topic {
+  border: dashed;
+  border-radius: 10px;
+  margin-top: 2em;
+}
+
+.thought-tool-exercise {
+  border: dashed blue;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 15em;
+}
+
+#thought-tool-exercise-button {
+  width: 70%;
+  height: 50%;
+}
+
+.thought-tool-group {
+  display: flex;
 }
