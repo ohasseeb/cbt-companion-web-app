@@ -1,0 +1,23 @@
+.CBT-exercise-topic {
+  border: dashed;
+  border-radius: 10px;
+  margin-top: 2em;
+}
+
+.thought-tool-exercise {
+  border: dashed blue;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 15em;
+  align-items: center;
+}
+
+#thought-tool-exercise-button {
+  width: 70%;
+  height: 50%;
+}
+
+.thought-tool-group {
+  display: flex;
+}
