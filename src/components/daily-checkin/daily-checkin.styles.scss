@@ -1,25 +1,40 @@
 .daily-checkin {
-  border: dashed;
-  border-radius: 10px;
-  width: 50%;
+  //   border: dashed;
+  //   border-radius: 10px;
+  width: 70%;
   margin-top: 1em;
   background-color: #3b4c78;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 30px;
 }
 
 .inline-daily-checkin {
   display: flex;
   flex-flow: column;
   justify-content: space-around;
-  height: 7em;
+  height: 11em;
   margin-left: 1.5em;
 }
 
 .start-button {
-  width: 10%;
+  width: 40%;
+  background-color: #0db3a1;
+  color: #f7fdfe;
+  border: 0;
+  height: 25%;
+  border-radius: 7px;
 }
 
-/* // Background - #2E3255
-Box Color - #3B4C78 
-Text - #F7FDFE
-help@resiliens.com
-Woops Wrong chat */
+.start-button:active {
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+// Background - #2E3255
+// Box Color - #3B4C78
+// Text - #F7FDFE
+// help@resiliens.com
+// Button Color - #0DB3A1

@@ -3,14 +3,37 @@
   justify-content: space-around;
   align-items: center;
   width: 30%;
-  height: 2em;
+  height: 3em;
   border-radius: 10px;
-  border: dashed;
+  // border: dashed;
   background-color: #3b4c78;
+}
+
+.buttons {
+  display: flex;
+  width: 30%;
 }
 
 .info-button {
   margin-right: 1em;
+  background-color: #0db3a1;
+  color: #f7fdfe;
+  border: 0;
+}
+
+.start-button-test {
+  margin-right: 0.5em;
+  background-color: #0db3a1;
+  color: #f7fdfe;
+  border: 0;
+  height: 2em;
+  border-radius: 6px;
+  width: 75%;
+}
+
+.start-button-test:active {
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
 }
 
 /* // Background - #2E3255

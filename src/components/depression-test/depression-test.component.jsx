@@ -6,7 +6,7 @@ const DepressionTest = () => (
     <div>Depression Test(PHQ-9)</div>
     <div className="buttons">
       <button className="info-button"> i </button>
-      <button> Start Now</button>
+      <button className="start-button-test"> Start Now</button>
     </div>
   </div>
 );
