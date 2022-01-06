@@ -1,58 +1,18 @@
 html {
+  margin-top: 3em;
   margin-left: 3em;
+  background-color: #2e3255;
+  color: #f7fdfe;
 }
 
-.depression-test {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 30%;
-  height: 2em;
-  border-radius: 10px;
-  border: dashed;
-}
+/* // Background - #2E3255
+Box Color - #3B4C78 
+Text - #F7FDFE
+help@resiliens.com
+Woops Wrong chat */
 
-.daily-checkin {
-  border: dashed;
-  border-radius: 10px;
-  width: 50%;
-}
-
-.inline-daily-checkin {
-  display: flex;
-  flex-flow: column;
-  justify-content: space-around;
-  height: 7em;
-  margin-left: 1.5em;
-}
-
-.info-button {
-  margin-right: 1em;
-}
-
-.start-button {
-  width: 10%;
-}
-
-.CBT-exercise-topic {
-  border: dashed;
-  border-radius: 10px;
-  margin-top: 2em;
-}
-
-.thought-tool-exercise {
-  border: dashed blue;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column-reverse;
-  width: 15em;
-}
-
-#thought-tool-exercise-button {
-  width: 70%;
-  height: 50%;
-}
-
-.thought-tool-group {
-  display: flex;
-}
+/* // Background - #2E3255
+Box Color - #3B4C78 
+Text - #F7FDFE
+help@resiliens.com
+Woops Wrong chat */

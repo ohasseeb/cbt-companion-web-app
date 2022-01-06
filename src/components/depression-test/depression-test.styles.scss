@@ -1,0 +1,59 @@
+.depression-test {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+  height: 4em;
+  border-radius: 10px;
+  // border: dashed;
+  background-color: #3b4c78;
+}
+
+.buttons {
+  display: flex;
+  width: 33%;
+}
+
+.info-button {
+  margin-right: 1em;
+  background-color: #0db3a1;
+  color: #f7fdfe;
+  border: 0;
+}
+
+.start-button-test {
+  margin-right: 0.5em;
+  background-color: #0db3a1;
+  color: #f7fdfe;
+  border: 0;
+  height: 2em;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.start-button-test:active {
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.svg {
+  height: 100%;
+  width: 75%;
+}
+
+.infobutton {
+  border: none;
+  background: none;
+  width: 30%;
+}
+
+.infobutton:active {
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+/* // Background - #2E3255
+Box Color - #3B4C78 
+Text - #F7FDFE
+help@resiliens.com
+Woops Wrong chat */

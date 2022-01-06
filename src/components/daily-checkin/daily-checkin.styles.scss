@@ -1,0 +1,51 @@
+.total {
+  display: flex;
+}
+
+.daily-checkin {
+  // font-size: larger;
+  display: flex;
+  height: 13em;
+  width: 70%;
+  justify-content: space-around;
+  background-color: #3b4c78;
+  border-radius: 12px;
+  margin-top: 3em;
+}
+
+.img {
+  max-width: 100%;
+  height: 158%;
+  margin-top: -3em;
+}
+
+.labels-together {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.title {
+  // font-size: larger;
+  font-size: 2em;
+}
+
+.start-button {
+  color: #f7fdfe;
+  background-color: #0db3a1;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  height: 3em;
+}
+
+.start-button:active {
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+/* 
+// Background - #2E3255
+Box Color - #3B4C78 
+Text - #F7FDFE
+Button Color: #0db3a1
+*/
