@@ -2,24 +2,6 @@ import ThoughtTool from "../thought-tools/thought-tool.component";
 import ThoughtToolPage from "../thought-tools-page/thought-tools-page.component";
 import "./thought-tools-collection.styles.scss";
 
-import AutoMaticThoughtImage from "../../images/ChallengeAutomaticThoughts.png";
-import BrainImage from "../../images/Brain.png";
-import PredictionImage from "../../images/Prediction.png";
-
-import GoalSettingImage from "../../images/GoalSetting.png";
-import SMARTGoalSettingImage from "../../images/SMARTGoalSetting.png";
-import ValuesAssessmentImage from "../../images/ValuesAssessment.png";
-import StrengthExplorationImage from "../../images/StrengthExploration.png";
-import ManageStressImage from "../../images/ManageStress.png";
-import ActionPlanImage from "../../images/ActionPlan.png";
-
-import GratitudeCheckinImage from "../../images/GratitudeCheckin.png";
-import ReflectionImage from "../../images/Reflection.png";
-import BreathingExerciseImage from "../../images/BreathingExercises.png";
-import MeditationsImage from "../../images/Meditations.png";
-
-import LogSleepImage from "../../images/LogSleep.png";
-
 import DoubleRightButton from "../../images/DoubleRightButton.png";
 import DoubleLeftButton from "../../images/DoubleLeftButton.png";
 import React from "react";
@@ -38,7 +20,9 @@ class ThoughtToolCollection extends React.Component {
   increment = () => {
     console.log("\n");
     // if (this.state.index == 0 || this.state.index > 0) {
-    if (this.state.index == 2) {
+    if (this.state.index == this.props.imageArray.length / 2 - 1) {
+      return;
+    } else if (this.props.imageArray.length == 1) {
       return;
     }
 
@@ -75,21 +59,7 @@ class ThoughtToolCollection extends React.Component {
     }
   };
 
-  test = () => {
-    if (this.props.imageArray.length == 2) {
-      console.log("got here");
-    }
-    return (
-      <div>
-        <div>AWOOOOOOOOOGA</div>
-        <img src={ManageStressImage} />
-      </div>
-    );
-  };
-
   render() {
-    console.log(this.props.name);
-
     // if (this.props.imageArray.length == 2) {
     //   console.log("got here");
     //   this.test();
