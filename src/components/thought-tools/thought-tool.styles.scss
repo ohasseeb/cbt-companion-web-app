@@ -1,46 +1,52 @@
-.title {
-  font-size: 30px;
-}
-
-.CBT-exercise-topic {
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
-
-.thought-tool-exercise {
-  //   border: dashed blue;
-  //   border-radius: 10px;
-  display: flex;
-  flex-direction: column-reverse;
-  width: 30em;
-  align-items: center;
-  height: 12em;
-  justify-content: center;
-}
-
-#thought-tool-exercise-button {
-  width: 70%;
-  height: 50%;
-  margin-bottom: 0.5em;
+.other {
+  background-color: none;
+  border: none;
   background: none;
+}
+
+.visible-items {
+  // display: flex;
+  // justify-content: center;
+  // border: dashed;
+}
+
+.hidden-items {
+  display: none;
+  border: solid;
+}
+
+.displayButton {
+  background-color: none;
   border: #0db3a1 solid;
-  border-radius: 15px;
-}
-.image {
-  width: 55%;
-  object-fit: cover;
-  height: 100%;
-  object-position: 0px -1.6em;
-}
-
-.thought-tool-group {
+  border-radius: 12px;
+  background: none;
+  display: block;
   display: flex;
-  margin-inline: -4em;
+  flex-direction: column;
+  width: 80%;
+  height: 70%;
 }
 
-/* // Background - #2E3255
-Box Color - #3B4C78 
-Text - #F7FDFE
-Button Color: #0db3a1
-help@resiliens.com
-Woops Wrong chat */
+.displayButton:hover {
+  cursor: pointer;
+}
+
+.displayButton:active {
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.imageButton {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: 0px -5.6em;
+}
+
+.exercise-label {
+  font-size: 23px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}

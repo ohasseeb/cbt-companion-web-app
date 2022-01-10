@@ -1,0 +1,32 @@
+.items {
+  display: flex;
+  height: 50%;
+  width: 70%;
+  align-items: center;
+}
+
+.button {
+  height: 5em;
+  background: none;
+  border: none;
+}
+
+.image {
+  max-height: 100%;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button:active {
+  transform: translateX(4px);
+}
+
+.label {
+  display: flex;
+  justify-content: flex-start;
+  width: 35%;
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+}
