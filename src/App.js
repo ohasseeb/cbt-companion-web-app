@@ -27,13 +27,11 @@ const App = () => (
   <div>
     <DepressionTest />
     <DailyCheckin />
-    {/* <ThoughtToolCollection />
-    <ThoughtToolCollection />
-    <ThoughtToolCollection /> */}
 
     <ThoughtToolCollection
       title={"Thought Tools"}
       imageArray={[AutoMaticThoughtImage, PredictionImage]}
+      exerciseName={["Automatic Thought", "Prediction"]}
     />
 
     <ThoughtToolCollection
@@ -46,6 +44,14 @@ const App = () => (
         ManageStressImage,
         ActionPlanImage,
       ]}
+      exerciseName={[
+        "Goal Setting",
+        "Smart Goal Building",
+        "Values Assessment",
+        " Strength Exploration",
+        "Manage Stress",
+        "Action Plan",
+      ]}
     />
 
     <ThoughtToolCollection
@@ -56,11 +62,18 @@ const App = () => (
         BreathingExerciseImage,
         MeditationsImage,
       ]}
+      exerciseName={[
+        "Gratitude Checkin",
+        "Reflection",
+        "Breathing Exercise",
+        "Meditations",
+      ]}
     />
 
     <ThoughtToolCollection
       title={"Sleep, Nutrition & Activity"}
       imageArray={[LogSleepImage]}
+      exerciseName={["Log Sleep"]}
     />
   </div>
 );

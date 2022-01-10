@@ -1,7 +1,7 @@
 import React from "react";
 import "./thought-tool.styles.scss";
 
-const ThoughtTool = ({ topicTitle, className, image }) => {
+const ThoughtTool = ({ topicTitle, className, image, exerciseName }) => {
   var name = "visible-items";
   if (className == false) {
     name = "hidden-items";
@@ -16,7 +16,7 @@ const ThoughtTool = ({ topicTitle, className, image }) => {
         {" "}
         <img className="imageButton" src={image} />
       </button>
-      <label className="exercise-label"> Automathic Thoughts</label>
+      <label className="exercise-label"> {exerciseName}</label>
 
       {/* {console.log("ClassName: ", name)} */}
     </div>

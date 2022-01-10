@@ -100,6 +100,7 @@ class ThoughtToolCollection extends React.Component {
         <ThoughtToolPage
           class_name={this.state.viewableClassName}
           imageArray={this.props.imageArray}
+          exerciseName={this.props.exerciseName}
         />,
       ];
     } else if (this.props.imageArray.length == 4) {
@@ -107,10 +108,18 @@ class ThoughtToolCollection extends React.Component {
         <ThoughtToolPage
           class_name={this.state.viewableClassName}
           imageArray={[this.props.imageArray[0], this.props.imageArray[1]]}
+          exerciseName={[
+            this.props.exerciseName[0],
+            this.props.exerciseName[1],
+          ]}
         />,
         <ThoughtToolPage
           class_name={this.state.unViewableClassName}
           imageArray={[this.props.imageArray[2], this.props.imageArray[3]]}
+          exerciseName={[
+            this.props.exerciseName[2],
+            this.props.exerciseName[3],
+          ]}
         />,
       ];
     } else if (this.props.imageArray.length == 6) {
@@ -118,14 +127,26 @@ class ThoughtToolCollection extends React.Component {
         <ThoughtToolPage
           class_name={this.state.viewableClassName}
           imageArray={[this.props.imageArray[0], this.props.imageArray[1]]}
+          exerciseName={[
+            this.props.exerciseName[0],
+            this.props.exerciseName[1],
+          ]}
         />,
         <ThoughtToolPage
           class_name={this.state.unViewableClassName}
           imageArray={[this.props.imageArray[2], this.props.imageArray[3]]}
+          exerciseName={[
+            this.props.exerciseName[2],
+            this.props.exerciseName[3],
+          ]}
         />,
         <ThoughtToolPage
           class_name={this.state.viewableClassName}
           imageArray={[this.props.imageArray[4], this.props.imageArray[5]]}
+          exerciseName={[
+            this.props.exerciseName[4],
+            this.props.exerciseName[5],
+          ]}
         />,
       ];
     } else {
@@ -133,6 +154,7 @@ class ThoughtToolCollection extends React.Component {
         <ThoughtToolPage
           class_name={this.state.viewableClassName}
           imageArray={[this.props.imageArray[0]]}
+          exerciseName={[this.props.exerciseName[0]]}
         />,
       ];
     }
